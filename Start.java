@@ -10,17 +10,15 @@ public class Start {
 	
 	public static void main(String[] args){
 		//main game loop
-		for(int n=0 ; n<15 ; n++){
+		for(int n=0 ; n<8 ; n++){
 			//getPlayerMove();
 			//updateGrid();
 			//displayGrid();
 			
-			//calculateMove();
+			//computerPlay();
 			//updateGrid();
 			displayGrid();
 			
-			//toggle player NOT SURE IF THIS IS NEEDED
-			nextPlayer();
 			String input = System.console().readLine();
 		}
 	}
